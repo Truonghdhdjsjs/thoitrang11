@@ -1,0 +1,18 @@
+# Thư mục build
+/build/
+
+# Thư mục node_modules
+/node_modules/
+
+# File cấu hình IDE
+*.sublime-workspace
+*.sublime-project
+
+# File log
+*.log
+
+# File môi trường
+.env
+
+# File tạm
+*.tmp

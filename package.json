@@ -1,0 +1,17 @@
+{
+  "name": "thoitrang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"sass ./public/asset/scss/main.scss ./public/asset/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "hover.css": "^2.3.2",
+    "scrollreveal": "^4.0.9"
+  }
+}

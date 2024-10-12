@@ -2,3 +2,9 @@
 @import "./base/reset.scss";
 @import "./base/typography.scss";
 @import "./base/base.scss";
+//file abstracts
+@import "./abstractss/mixins.scss";
+//file layout
+@import "./layout/header.scss";
+@import "./layout/grid.scss";
+@import "./layout/media.scss";

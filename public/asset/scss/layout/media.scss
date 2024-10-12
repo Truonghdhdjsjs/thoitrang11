@@ -1,10 +1,17 @@
-.header_above
+@media screen and (max-width: 1023.98px ) {
+   
+    .grid
+    {
+        padding: 10px;
+    }
+    .header_above
 {
     background-color: #000;
     padding: 10px;
     &_nav_adress a
     {
         color: #fff;
+       font-size: 0.9rem;
     }
     &_nav_adress a:hover,
     &_nav_adress a:active
@@ -21,11 +28,13 @@
     &_nav_informaiton_phone span a
     {
         color: #fff;
+        font-size: 0.9rem;
     }
     &_nav_informaiton_phone span a:hover,
     &_nav_informaiton_phone span a:active
     {
         color: #e0dede;
+
     }
     &_nav_informaiton_login a,
     &_nav_informaiton_register a
@@ -34,20 +43,20 @@
     {
         color: #fff;
         font-weight: 400;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 }
 .header_hidden
 {
     // background-color: #474646;
-    padding: 10px;
+    // padding: 10px;
     &_nav
     {
         @include flex_column;
     }
     &_nav .logo img
     {
-        width: 200px;
+        width: 150px;
     }
     &_nav_menu
     {
@@ -61,7 +70,7 @@
     }
     &_nav_menu_product ul li a 
     {
-        font-size: 1.3rem;
+        font-size: 1rem;
         color: #000;
         text-transform: capitalize;
     }
@@ -81,7 +90,7 @@
     }
     &_nav_tool>div>i
     {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-bottom: 10px;
         cursor: pointer;
         transition: all 0.3s ease;
@@ -131,11 +140,10 @@
         display: none;
     }
 }
-.lazing-load {
-    opacity: 0;
-    transition: opacity 0.5s ease;
 }
-
-.lazing-load.loaded {
-    opacity: 1;
+@media screen and (max-width: 850px) {
+    .header_above
+    {
+        display: none;
+    }
 }

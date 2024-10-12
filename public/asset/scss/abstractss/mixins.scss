@@ -1,0 +1,13 @@
+@mixin flex_column($gap: null) {
+    display: flex;
+    // Uncomment the next line to set the direction to column
+    // flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: $gap;
+}
+@mixin image()
+{
+    object-fit: contain;
+    display: inline-block;
+}
